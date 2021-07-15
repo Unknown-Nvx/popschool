@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Merriweather;
+    src: url('fonts/Merriweather-Light.woff2');
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('fonts/Roboto-Regular.woff2');
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url('fonts/whitneymedium.woff');
+}

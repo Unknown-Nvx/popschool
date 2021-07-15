@@ -1,0 +1,276 @@
+
+/* REUSABLE ITEMS */
+.section-title{
+    padding: 50px;
+    background-color: #364547;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    margin: 0;
+}
+
+.underline-magical {
+    background-image: linear-gradient(0deg, #D67165 0%, #D67165 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 100%;
+    transition: 0.15s ease-in-out;
+    cursor: pointer;
+  }.blue{
+    background-image: linear-gradient(0deg, #4A85D9 0%, #4A85D9 100%);
+  }
+  
+  .underline-magical:hover{
+    background-size: 100% 90%;
+  }
+
+  .spacer{
+      width: 100%;
+      margin-top: 100px;
+  }
+/*###-REUSABLE ITEMS-###*/
+
+
+/* BODY & HEADER SECTION */
+body{
+    max-width: 1140px;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1070&q=80');
+}
+
+header{
+    position: relative;
+    height: 50px;
+    background-color: #364547;
+}
+
+nav{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menu-item{
+    display: inline-block;
+    font-family: 'Roboto';
+    font-size: 13px;
+    margin-right: 14px;
+}
+
+.menu-item:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: #fff;
+}
+/*###-BODY & HEADER SECTION-###*/
+
+
+/* MAIN BANNER SECTION */
+#banner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 375px;
+    background-color: #2F5D62;
+    color: #eee;
+    text-align: center;
+}
+
+.banner-info img{
+    height: 140px;
+}
+
+.banner-info h1{
+    font-family: Merriweather;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.banner-info p{
+    font-family: Roboto;
+    font-size: 15px;
+    background-color: rgb(66, 80, 82);
+    border-radius: 4px;
+}
+
+.banner-info a{
+    color: #2F5D62;
+    background-color: #FFE268;
+    border: 2px solid #FFE268;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 12px;
+    padding: 7px 90px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    transition: 100ms ease-in-out;
+}
+
+.banner-info a:hover{
+    background-color: transparent;
+    color: #FFE268;
+    border: 2px solid #FFE268;
+}
+
+.btn-circle-effect{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+}
+/*###-MAIN BANNER SECTION-###*/
+
+
+/* ABOUT-ME SECTION */
+#aboutme{
+    background-color: #364547;
+}
+
+.text-container{
+    width: auto;
+    max-width: 780px;
+    height: auto;
+    background-color: rgba(255, 255, 255, .08);
+    border-radius: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+}
+
+.text-container p{
+    color: #eee;
+    font-family: Roboto;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    padding: 20px 60px;
+}
+
+#pin-emoji{
+    position: absolute;
+    margin-left: -12px;
+    margin-top: -10px;
+    transform: rotate(280deg);
+    cursor: grab;
+    user-select: none;
+    transition: all 400ms ease-in-out;
+}
+
+#pin-emoji:hover{
+    transform: rotate(-90deg);
+    transition: all 400ms ease-in-out;
+}
+
+#hobbies-container{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 24px;
+    max-width: 780px;
+    background-color: rgba(255, 255, 255, .08);
+    padding: 4px 0px;
+    border-radius: 10px;
+}
+
+.hobbie{
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 14px;
+    background-color: #2f5d62;
+    color: #fff;
+    padding: 6px 24px;
+    padding-left: 16px;
+    border-radius: 20px;
+    margin: 5px;
+    user-select: none;
+}.hobbie span{
+    margin-right: 12px;
+}
+
+.hobbie:hover{
+    background-color: #33666B;
+    transition: all 100ms linear;
+}
+
+#box-container{
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.boxlink{
+    display: contents;
+}
+
+.box{
+    height: 120px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    flex: 1 1 280px;
+    opacity: 0.9;
+}.github{
+    background-image: url('../img/github.png');
+}.codecademy{
+    background-image: url('../img/codecademy.png');
+}.box:hover{
+    transition: 100ms linear;
+    opacity: 1;
+}
+/*###-ABOUT-ME SECTION-###*/
+
+/* CONTACT SECTION */
+#contact{
+    background-color: #364547;
+}
+
+ form{/* FYI: ici je n'utilise pas de class,id selectors car il y a qu'un seul formulaire ^^ */
+    background-color: #2f5d62;
+}
+
+input[type="email"]{
+    height: 34px;
+}
+
+input, textarea{
+    display: block;
+    
+}
+
+textarea, input[type='email']{
+    background-color: rgba(255, 255, 255, .1);
+    border: none;
+    width: 780px;
+    margin-bottom: 18px;
+}
+
+input[type="submit"]{
+    padding: 8px 64px;
+    background-color: #FFE268;
+    color: #2f5d62;
+    border: none;
+    border-radius: 18px;
+}
