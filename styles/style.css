@@ -27,7 +27,9 @@
 
   .spacer{
       width: 100%;
-      margin-top: 100px;
+      margin-top: 80px;
+      background-color: #2f5d62;
+      height: 18px;
   }
 /*###-REUSABLE ITEMS-###*/
 
@@ -242,35 +244,22 @@ nav ul{
 }
 /*###-ABOUT-ME SECTION-###*/
 
-/* CONTACT SECTION */
-#contact{
-    background-color: #364547;
-}
-
- form{/* FYI: ici je n'utilise pas de class,id selectors car il y a qu'un seul formulaire ^^ */
+footer{
+    color: #eee;
+    font-family: Roboto;
+    font-size: 14px;
     background-color: #2f5d62;
+    padding: 24px;
+    margin-top: 120px;
+    position: relative;
 }
 
-input[type="email"]{
-    height: 34px;
-}
-
-input, textarea{
-    display: block;
-    
-}
-
-textarea, input[type='email']{
-    background-color: rgba(255, 255, 255, .1);
-    border: none;
-    width: 780px;
-    margin-bottom: 18px;
-}
-
-input[type="submit"]{
-    padding: 8px 64px;
-    background-color: #FFE268;
-    color: #2f5d62;
-    border: none;
-    border-radius: 18px;
+footer p{
+    background-color: rgb(66, 80, 82);
+    display: inline;
+    padding: 2px 6px;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    right: 32px;
 }

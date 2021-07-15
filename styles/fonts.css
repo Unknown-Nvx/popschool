@@ -7,8 +7,3 @@
     font-family: Roboto;
     src: url('fonts/Roboto-Regular.woff2');
 }
-
-@font-face {
-    font-family: Whitney;
-    src: url('fonts/whitneymedium.woff');
-}
