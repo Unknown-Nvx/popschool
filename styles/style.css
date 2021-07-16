@@ -41,7 +41,7 @@ body{
     margin: 0;
     margin-left: auto;
     margin-right: auto;
-    background-image: url('https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1070&q=80');
+    background-image: url('../img/ep_naturalblack.png');
 }
 
 header{
@@ -228,7 +228,7 @@ nav ul{
 }
 
 .box{
-    height: 120px;
+    height: 100px;
     border-radius: 8px;
     background-size: cover;
     background-position: center;
@@ -239,8 +239,8 @@ nav ul{
 }.codecademy{
     background-image: url('../img/codecademy.png');
 }.box:hover{
-    transition: 100ms linear;
     opacity: 1;
+    transition: 200ms linear;
 }
 /*###-ABOUT-ME SECTION-###*/
 
