@@ -232,7 +232,7 @@ nav ul{
     border-radius: 8px;
     background-size: cover;
     background-position: center;
-    flex: 1 1 280px;
+    flex: 1 1 200px;
     opacity: 0.9;
 }.github{
     background-image: url('../img/github.png');
