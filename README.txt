@@ -6,7 +6,5 @@ j'ai mis un paragraphe (qui contient ma bio Fiverr) avec quelques effets css ain
 Le site est entièrement responsive design et s'affiche correctement,
 je n'ai pas utilisé de Media Queries, mais beaucoup de valeurs relatives.
 
-j'aurais pu ajouter plus de contenu / code mais le projet fait presque déjà la taille maximale autorisée, soit 10 Mo (9.5Mo).
-
 ✔️ W3C HTML Validator
 ✔️ W3C CSS Validator
